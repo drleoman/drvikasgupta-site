@@ -4,19 +4,24 @@ export default function DrGuptaProfile() {
       <h1 className="text-4xl font-bold mb-4">Dr. Vikas Gupta, MD</h1>
       <p className="mb-4 text-lg">Board-Certified Neuroendovascular Surgeon</p>
       <p className="mb-4">
-        Dr. Gupta is a nationally recognized leader in neurointerventional surgery,
-        with extensive experience in treating complex cerebrovascular conditions.
-        His clinical expertise spans stroke, aneurysms, AVMs, and carotid stenosis.
+        Dr. Gupta is a nationally recognized leader in neurointerventional surgery, with extensive
+        experience in complex cerebrovascular procedures, stroke management, and academic leadership.
       </p>
+      <ul className="list-disc list-inside mb-4">
+        <li>Assistant Program Director – University of Missouri</li>
+        <li>Residency Leadership – Texas Tech, Lawnwood HCA</li>
+        <li>Specialized in Stroke, Aneurysm, AVM, Carotid and Spinal Procedures</li>
+      </ul>
       <p className="mb-4">
-        He has served as Assistant Program Director at the University of Missouri and
-        Texas Tech University, and as Clerkship Director at HCA Lawnwood Regional.
-      </p>
-      <p className="mb-4">
-        Learn more via his research on{" "}
-        <a href="https://pubmed.ncbi.nlm.nih.gov/?term=vikas+gupta" className="text-blue-600 underline" target="_blank">PubMed</a>{" "}
-        and watch educational content on his{" "}
-        <a href="https://www.youtube.com/results?search_query=dr+vikas+gupta+neurointerventional" className="text-blue-600 underline" target="_blank">YouTube channel</a>.
+        <strong>Media | Publications | Videos:</strong>
+        <br />
+        <a href="https://pubmed.ncbi.nlm.nih.gov/?term=vikas+gupta+neuro" className="text-blue-600 underline" target="_blank">
+          PubMed Articles
+        </a>
+        <br />
+        <a href="https://www.youtube.com/results?search_query=dr+vikas+gupta+neuro" className="text-blue-600 underline" target="_blank">
+          YouTube Appearances
+        </a>
       </p>
     </div>
   );
